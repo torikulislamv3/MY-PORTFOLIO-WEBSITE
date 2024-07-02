@@ -42,22 +42,22 @@ const Navbar = () => {
     <ul className="menu menu-horizontal px-1">
     
      <button>
-     <li className="text-lg font-semibold text-[#007BFF] mr-5 hover:underline">Home</li>
+     <li className="text-lg text-[#007BFF] mr-5 hover:underline">Home</li>
      </button>
      <button>
-     <li className="text-lg font-semibold text-[#007BFF] mr-5 hover:underline">About Me</li>
+     <li className="text-lg text-[#007BFF] mr-5 hover:underline">About Me</li>
      </button>
      <button>
-        <li className="text-lg font-semibold text-[#007BFF] mr-5 hover:underline">Projects</li>
+        <li className="text-lg text-[#007BFF] mr-5 hover:underline">Projects</li>
         </button>
      <button>
-        <li className="text-lg font-semibold text-[#007BFF] mr-5 hover:underline">Skills</li>
+        <li className="text-lg text-[#007BFF] mr-5 hover:underline">Skills</li>
         </button>
      <button>
-     <li className="text-lg font-semibold text-[#007BFF] mr-5 hover:underline">Contact</li>
+     <li className="text-lg text-[#007BFF] mr-5 hover:underline">Contact</li>
      </button>
     <button>
-    <li className="text-lg font-semibold text-[#007BFF] mr-5 hover:underline">Services</li>
+    <li className="text-lg text-[#007BFF] mr-5 hover:underline">Services</li>
     </button>
     </ul>
   </div>
