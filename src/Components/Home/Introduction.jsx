@@ -20,9 +20,15 @@ const Introduction = () => {
       </p>
       <div className="mt-10 flex items-center gap-2">
         <button className="btn btn-outline rounded-full border-[#007BFF] text-[#007BFF] hover:bg-[#007BFF] hover:text-white">Download Resume <FaDownload /> </button>
-        <button className="hover:bg-[#007BFF]"><CiLinkedin className="text-5xl border p-1 rounded-full border-[#007BFF] text-[#007BFF] hover:text-white" /></button>
+       <a href="#">
+       <button target="blank" className="hover:bg-[#007BFF]"><CiLinkedin className="text-5xl border p-1 rounded-full border-[#007BFF] text-[#007BFF] hover:text-white" /></button>
+       </a>
+        <a target="blank" href="https://github.com/torikulislamv3">
         <button className="hover:bg-[#007BFF]"><FaGithub className="text-5xl border p-1 rounded-full border-[#007BFF] text-[#007BFF] hover:text-white" /></button>
+        </a>
+        <a target="blank" href="https://www.facebook.com/mdtorikulislamtamim/">
         <button className="hover:bg-[#007BFF]"><CiFacebook className="text-5xl border p-1 rounded-full border-[#007BFF] text-[#007BFF] hover:text-white" /></button>
+        </a>
       </div>
     </div>
   </div>
