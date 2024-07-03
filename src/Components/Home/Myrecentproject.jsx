@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom"
-
 const Myrecentproject = () => {
   return (
   <div className="mt-10">
@@ -7,7 +5,7 @@ const Myrecentproject = () => {
         MY RECENT PROJECTS
     </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:flex lg:justify-evenly gap-4">
-      <div className="card bg-base-100 w-96 shadow-xl">
+      <div className="card bg-green-400 text-gray-950 w-96 shadow-xl ">
   <figure>
     <img
       src="https://i.ibb.co/Zzpk9qq/fabrichouse.png"
@@ -27,7 +25,7 @@ const Myrecentproject = () => {
   </div>
 </div>
 
-<div className="card bg-base-100 w-96 shadow-xl">
+<div className="card w-96 shadow-xl bg-green-400">
   <figure>
     <img
       src="https://i.ibb.co/D1ft2B6/alfadoc.png"
@@ -35,7 +33,7 @@ const Myrecentproject = () => {
   </figure>
   <div className="card-body">
     <h2 className="card-title">
-      Shoes!
+      Alfa Doc !
       <div className="badge badge-secondary">NEW</div>
     </h2>
     <p>This is assignment related website project . Any student can create an account in the website. He / She can give and take any assignmet in the project.</p>
@@ -47,7 +45,7 @@ const Myrecentproject = () => {
   </div>
 </div>
 
-<div className="card bg-base-100 w-96 shadow-xl">
+<div className="card bg-green-400 text-gray-950  w-96 shadow-xl">
   <figure>
     <img
       src="https://i.ibb.co/Wn0pStj/animalspro.png"
@@ -55,7 +53,7 @@ const Myrecentproject = () => {
   </figure>
   <div className="card-body">
     <h2 className="card-title">
-      Shoes!
+      Animals Pro !
       <div className="badge badge-secondary">NEW</div>
     </h2>
     <p>This is animals related project or website . Anyone can create an account on this website . He / She can adopt any pet animals . Even He / She donate for any animal. So thats our emotion for pet animals.</p>
