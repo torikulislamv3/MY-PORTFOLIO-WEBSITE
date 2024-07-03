@@ -27,7 +27,7 @@ const ContactMe = () => {
       };
     
   return (
-    <div className='bg-gray-100 mb-10'>
+    <div id='contact' className='bg-gray-100 mb-10'>
         <marquee>
         <h1 className="flex gap-7 text-5xl font-bold text-[#007BFF] items-center">
             <MdContactMail className="text-6xl" />

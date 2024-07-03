@@ -1,6 +1,6 @@
 const Myrecentproject = () => {
   return (
-  <div className="mt-10">
+  <div id="myProject" className="mt-10">
     <h1 className="text-center text-5xl font-bold text-[#007BFF] mb-10">
         MY RECENT PROJECTS
     </h1>

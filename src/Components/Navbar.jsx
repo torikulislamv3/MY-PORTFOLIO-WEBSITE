@@ -21,22 +21,33 @@ const Navbar = () => {
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
        <button>
-     <li className="text-lg text-[#007BFF] hover:underline">Home</li>
+     <a href="/">
+     <li className="text-lg text-[#007BFF] hover:underline">Home</li></a>
      </button>
      <button>
+     <a href="#introduction">
      <li className="text-lg text-[#007BFF] hover:underline">About Me</li>
+     </a>
      </button>
      <button>
+        <a href="#myProject">
         <li className="text-lg text-[#007BFF] hover:underline">Projects</li>
+        </a>
         </button>
      <button>
+        <a href="#skills">
         <li className="text-lg text-[#007BFF] hover:underline">Skills</li>
+        </a>
         </button>
      <button>
+     <a href="#contact">
      <li className="text-lg text-[#007BFF] hover:underline">Contact</li>
+     </a>
      </button>
     <button>
-    <li className="text-lg text-[#007BFF] hover:underline">Services</li>
+    <a href="#education">
+    <li className="text-lg text-[#007BFF] hover:underline">My Education</li>
+    </a>
     </button>
       </ul>
     </div>
@@ -51,22 +62,34 @@ const Navbar = () => {
     <ul className="menu menu-horizontal px-1">
     
      <button>
+     <a href="/">
      <li className="text-lg text-[#007BFF] mr-5 hover:underline">Home</li>
+     </a>
      </button>
      <button>
+     <a href="#introduction">
      <li className="text-lg text-[#007BFF] mr-5 hover:underline">About Me</li>
+     </a>
      </button>
      <button>
+        <a href="#myProject">
         <li className="text-lg text-[#007BFF] mr-5 hover:underline">Projects</li>
+        </a>
         </button>
      <button>
+        <a href="#skills">
         <li className="text-lg text-[#007BFF] mr-5 hover:underline">Skills</li>
+        </a>
         </button>
      <button>
+     <a href="#contact">
      <li className="text-lg text-[#007BFF] mr-5 hover:underline">Contact</li>
+     </a>
      </button>
     <button>
-    <li className="text-lg text-[#007BFF] mr-5 hover:underline">Services</li>
+    <a href="#education">
+    <li className="text-lg text-[#007BFF] mr-5 hover:underline">My Education</li>
+    </a>
     </button>
     </ul>
   </div>

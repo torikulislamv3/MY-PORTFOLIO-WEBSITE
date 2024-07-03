@@ -3,7 +3,7 @@ import { MdOutlineCastForEducation } from "react-icons/md"
 
 const Education = () => {
   return (
-    <div>
+    <div id="education">
         <marquee>
         <h1 className="flex gap-7 text-5xl font-bold text-[#007BFF] mt-10 items-center">
             <MdOutlineCastForEducation className="text-6xl" />

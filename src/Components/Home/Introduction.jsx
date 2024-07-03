@@ -2,7 +2,7 @@ import { CiFacebook, CiLinkedin } from "react-icons/ci"
 import { FaDownload, FaGithub } from "react-icons/fa"
 const Introduction = () => {
   return (
-    <div className="hero min-h-screen bg-gray-200">
+    <div id="introduction" className="hero min-h-screen bg-gray-200">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <img
       src="https://i.ibb.co/KXQYvPQ/portfolio-img-removebg-preview.png"
