@@ -1,3 +1,4 @@
+import Education from "./Education";
 import Introduction from "./Introduction";
 import Myrecentproject from "./Myrecentproject";
 import Skills from "./Skills";
@@ -8,6 +9,7 @@ export const Home = () => {
         <Introduction></Introduction>
         <Myrecentproject></Myrecentproject>
         <Skills></Skills>
+        <Education></Education>
     </div>
   )
 }
