@@ -17,8 +17,16 @@ const Myrecentproject = () => {
       <div className="badge badge-secondary">NEW</div>
     </h2>
     <p>This project for fabric arts textile . Anybody can create an account in this website . He / She add her febric arts and craft item . Even He or She can add her items price . Even can sell he items on this website.</p>
-    <div className="card-actions justify-end">
-      <a target="blank" href="https://fabric-arts-textile.web.app/">
+    <div className="card-actions flex justify-between items-center">
+      <div>
+        <p className="font-semibold text-white underline">
+          Used Technology 
+        </p>
+        <p className="text-red-700 font-bold">
+          react.js, tailwind-css, <br /> html-5, node.js, <br /> express.js, mongodb, <br /> firebase, css
+        </p>
+      </div>
+      <a target="blank" href="https://github.com/torikulislamv3/Fabric-House-Client">
       <button className="btn btn-outline rounded-full text-white bg-[#007BFF] w-[130px] hover:bg-[#28A745] border-none">see project</button>
       </a>
     </div>
@@ -37,8 +45,16 @@ const Myrecentproject = () => {
       <div className="badge badge-secondary">NEW</div>
     </h2>
     <p>This is assignment related website project . Any student can create an account in the website. He / She can give and take any assignmet in the project.</p>
-    <div className="card-actions justify-end">
-    <a target="blank" href="https://alfa-doc.web.app/">
+    <div className="card-actions flex justify-between items-center">
+    <div>
+        <p className="font-semibold text-white underline">
+          Used Technology 
+        </p>
+        <p className="text-red-700 font-bold">
+          react.js, tailwind-css, <br /> html-5, node.js, <br /> express.js, mongodb, <br /> firebase, css
+        </p>
+      </div>
+    <a target="blank" href="https://github.com/torikulislamv3/Alfa-Doc-Client">
       <button className="btn btn-outline rounded-full text-white bg-[#007BFF] w-[130px] hover:bg-[#28A745] border-none">see project</button>
       </a>
     </div>
@@ -57,8 +73,16 @@ const Myrecentproject = () => {
       <div className="badge badge-secondary">NEW</div>
     </h2>
     <p>This is animals related project or website . Anyone can create an account on this website . He / She can adopt any pet animals . Even He / She donate for any animal. So thats our emotion for pet animals.</p>
-    <div className="card-actions justify-end">
-    <a target="blank" href="https://animals-pro-fe8cd.web.app/">
+    <div className="card-actions flex justify-between items-center">
+    <div>
+        <p className="font-semibold text-white underline">
+          Used Technology 
+        </p>
+        <p className="text-red-700 font-bold">
+          react.js, tailwind-css, <br /> html-5, node.js, <br /> express.js, mongodb, <br /> firebase, css
+        </p>
+      </div>
+    <a target="blank" href="https://github.com/torikulislamv3/Animal-Pro_client">
       <button className="btn btn-outline rounded-full text-white bg-[#007BFF] w-[130px] hover:bg-[#28A745] border-none">see project</button>
       </a>
     </div>
