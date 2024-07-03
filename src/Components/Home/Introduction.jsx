@@ -16,9 +16,7 @@ const Introduction = () => {
         DEVELOPER
       </p>
       <p className="mt-5">
-      Front-end web developers transform ideas into interactive, 
-      <br />
-       visually stunning websites using HTML, CSS, and JavaScript.
+      Hello! I'm MD TORIKUL ISLAM, a dedicated front-end web developer. I love creating responsive and interactive websites and am always eager to learn new technologies. My goal is to work on complex and creative projects to further enhance my skills. Let's connect and build amazing projects together! 
       </p>
       <div className="mt-10 flex items-center gap-2">
         <button className="btn btn-outline rounded-full border-[#007BFF] text-[#007BFF] hover:bg-[#007BFF] hover:text-white">Download Resume <FaDownload /> </button>
