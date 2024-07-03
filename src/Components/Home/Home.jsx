@@ -1,3 +1,4 @@
+import ContactMe from "./ContactMe";
 import Education from "./Education";
 import Introduction from "./Introduction";
 import Myrecentproject from "./Myrecentproject";
@@ -10,6 +11,7 @@ export const Home = () => {
         <Myrecentproject></Myrecentproject>
         <Skills></Skills>
         <Education></Education>
+        <ContactMe></ContactMe>
     </div>
   )
 }
