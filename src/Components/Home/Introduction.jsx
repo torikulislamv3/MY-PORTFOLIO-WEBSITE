@@ -3,12 +3,13 @@ import { FaDownload, FaGithub } from "react-icons/fa"
 import resume from '../../assets/upcoming.pdf'
 const Introduction = () => {
   return (
-    <div id="introduction" className="hero min-h-screen bg-gray-200">
+    <div data-aos="fade-down" data-aos-duration="1000" id="introduction" className="hero min-h-screen bg-gray-200">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <img
+    data-aos="fade-left"
       src="https://i.ibb.co/KXQYvPQ/portfolio-img-removebg-preview.png"
       className="max-w-sm rounded-lg shadow-2xl lg:ml-[200px]" />
-    <div>
+    <div data-aos="fade-right">
       <h1 className="text-3xl font-bold text-[#20C997]">I'm MD TORIKUL ISLAM</h1>
       <p className="py-4 text-7xl google-font text-[#28A745]">
         FRONT-END WEB

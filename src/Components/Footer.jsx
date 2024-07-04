@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-[#007BFF] pt-10 pb-7">
+    <footer data-aos="fade-up" className="bg-[#007BFF] pt-10 pb-7">
         <div>
         <img className="w-24 rounded-full mx-auto" src="https://i.ibb.co/RCtxf18/face-logo-8252748-1280.png" alt="developer" />
         </div>

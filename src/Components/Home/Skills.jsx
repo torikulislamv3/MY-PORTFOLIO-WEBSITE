@@ -6,8 +6,8 @@ import { SiExpress, SiHtml5, SiMongodb } from "react-icons/si"
 
 const Skills = () => {
   return (
-    <div id="skills">
-        <h1 className="text-center text-5xl font-bold text-[#007BFF] mt-10">MY SKILLS</h1>
+    <div data-aos="fade-up" id="skills">
+        <h1 data-aos="flip-left" className="text-center text-5xl font-bold text-[#007BFF] mt-10">MY SKILLS</h1>
         <p className="text-center mt-4">
         Passionate front-end developer skilled in creating responsive and interactive web applications. Dedicated to building user-friendly and visually appealing interfaces.
         </p>

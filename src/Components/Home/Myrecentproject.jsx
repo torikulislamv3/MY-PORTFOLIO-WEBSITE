@@ -1,11 +1,11 @@
 const Myrecentproject = () => {
   return (
   <div id="myProject" className="mt-10">
-    <h1 className="text-center text-5xl font-bold text-[#007BFF] mb-10">
+    <h1 data-aos="fade-down-left" className="text-center text-5xl font-bold text-[#007BFF] mb-10">
         MY RECENT PROJECTS
     </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:flex lg:justify-evenly gap-4">
-      <div className="card bg-green-400 text-gray-950 w-96 shadow-xl ">
+      <div data-aos="fade-up" className="grid grid-cols-1 sm:grid-cols-2 lg:flex lg:justify-evenly gap-4">
+      <div data-aos="fade-left" className="card bg-green-400 text-gray-950 w-96 shadow-xl ">
   <figure>
     <img
       src="https://i.ibb.co/Zzpk9qq/fabrichouse.png"
@@ -33,7 +33,7 @@ const Myrecentproject = () => {
   </div>
 </div>
 
-<div className="card w-96 shadow-xl bg-green-400">
+<div data-aos="fade-left" className="card w-96 shadow-xl bg-green-400">
   <figure>
     <img
       src="https://i.ibb.co/D1ft2B6/alfadoc.png"
@@ -61,7 +61,7 @@ const Myrecentproject = () => {
   </div>
 </div>
 
-<div className="card bg-green-400 text-gray-950  w-96 shadow-xl">
+<div data-aos="fade-left" className="card bg-green-400 text-gray-950  w-96 shadow-xl">
   <figure>
     <img
       src="https://i.ibb.co/Wn0pStj/animalspro.png"

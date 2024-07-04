@@ -27,7 +27,7 @@ const ContactMe = () => {
       };
     
   return (
-    <div id='contact' className='bg-gray-100 mb-10'>
+    <div data-aos="zoom-in-up" id='contact' className='bg-gray-100 mb-10'>
         <marquee>
         <h1 className="flex gap-7 text-5xl font-bold text-[#007BFF] items-center">
             <MdContactMail className="text-6xl" />
@@ -35,7 +35,7 @@ const ContactMe = () => {
             </h1>
         </marquee>
         <section className="email-contact mt-10 bg-white grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
-                <div className='border rounded-lg shadow-2xl'>
+                <div data-aos="fade-right" className='border rounded-lg shadow-2xl'>
                     <h1 className="text-center text-5xl font-bold text-green-900 pt-10">Let’s work together!</h1>
                     <p className='text-center mt-3'>
                     I design and code beautifully simple things and i love what i do.
@@ -69,7 +69,7 @@ const ContactMe = () => {
       <button className='btn btn-outline rounded-full ml-[70px] mt-5 px-10 bg-green-900 text-white mb-10'><input type="submit" value="Send Message" /></button>
     </form>
                 </div>
-                <div className='contact-item'>
+                <div data-aos="fade-left" className='contact-item'>
                     <div className='flex gap-[50px] mb-7'>
                         <div>
                         <FaPhoneSquareAlt className='text-6xl text-white border rounded-full bg-green-700' />
