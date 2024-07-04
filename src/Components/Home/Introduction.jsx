@@ -1,5 +1,6 @@
 import { CiFacebook, CiLinkedin } from "react-icons/ci"
 import { FaDownload, FaGithub } from "react-icons/fa"
+import resume from '../../assets/upcoming.pdf'
 const Introduction = () => {
   return (
     <div id="introduction" className="hero min-h-screen bg-gray-200">
@@ -19,7 +20,11 @@ const Introduction = () => {
       Hello! I'm MD TORIKUL ISLAM, a dedicated front-end web developer. I love creating responsive and interactive websites and am always eager to learn new technologies. My goal is to work on complex and creative projects to further enhance my skills. Let's connect and build amazing projects together! 
       </p>
       <div className="mt-10 flex items-center gap-2">
-        <button className="btn btn-outline rounded-full border-[#007BFF] text-[#007BFF] hover:bg-[#007BFF] hover:text-white">Download Resume <FaDownload /> </button>
+        <button className="btn btn-outline rounded-full border-[#007BFF] text-[#007BFF] hover:bg-[#007BFF] hover:text-white"> <a
+        download="resume" 
+        className="flex items-center gap-2" href={resume}>
+        Download Resume <FaDownload/>
+          </a> </button>
        <a href="#">
        <button target="blank" className="hover:bg-[#007BFF]"><CiLinkedin className="text-5xl border p-1 rounded-full border-[#007BFF] text-[#007BFF] hover:text-white" /></button>
        </a>
