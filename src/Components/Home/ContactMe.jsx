@@ -87,7 +87,7 @@ const ContactMe = () => {
                         <div>
                             <p className='font-semibold'>Email</p>
                             <p className='font-bold text-green-800 text-xl'>
-                            developertamim36@gmail.com
+                            mdtorikulislam99@yahoo.com
                             </p>
                         </div>
                     </div>
