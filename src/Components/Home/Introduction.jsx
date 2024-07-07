@@ -3,7 +3,7 @@ import { FaDownload, FaGithub } from "react-icons/fa"
 import resume from '../../assets/upcoming.pdf'
 const Introduction = () => {
   return (
-    <div data-aos="fade-down" data-aos-duration="1000" id="introduction" className="hero min-h-screen bg-gray-200">
+    <div data-aos="fade-down" data-aos-duration="1000" id="introduction" className="hero min-h-screen bg-gray-200 px-10">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <img
     data-aos="fade-left"
