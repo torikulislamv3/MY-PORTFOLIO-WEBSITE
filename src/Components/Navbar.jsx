@@ -116,11 +116,11 @@ const Navbar = () => {
           </button>
         </ul>
       </div>
-      <div className="navbar-end">
+      {/* <div className="navbar-end">
         <button className="btn btn-outline rounded-full text-white bg-[#007BFF] w-[130px] hover:bg-[#28A745] border-none text-xl hidden lg:block">
           <strong>Hire me!</strong>
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };
