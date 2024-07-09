@@ -75,7 +75,7 @@ const Navbar = () => {
             </button>
           </ul>
         </div>
-        <div className="avatar online">
+        <div className="avatar online ava">
           <div className="w-24 rounded-full">
             <img src="https://i.ibb.co/RCtxf18/face-logo-8252748-1280.png" alt="avatar"/>
           </div>
