@@ -1,6 +1,6 @@
 import { CiFacebook, CiLinkedin } from "react-icons/ci"
 import { FaDownload, FaGithub } from "react-icons/fa"
-import resume from '../../assets/upcoming.pdf'
+import resume from '../../assets/resume.pdf'
 const Introduction = () => {
   return (
     <div data-aos="fade-down" data-aos-duration="1000" id="introduction" className="hero min-h-screen bg-gray-200">
