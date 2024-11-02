@@ -23,7 +23,7 @@ const Introduction = () => {
       <div className="mt-10 flex items-center gap-2">
         <button className="btn btn-outline rounded-full border-[#007BFF] text-[#007BFF] hover:bg-[#007BFF] hover:text-white"> <a
         download="resume" 
-        className="flex items-center gap-2" href="https://drive.google.com/file/d/1aI8epobJ2j0vZ1aNo03EgCo9PNn5Njd5/view?usp=sharing">
+        className="flex items-center gap-2" href={resume}>
         Download Resume <FaDownload/>
           </a> </button>
        <a href="#">
